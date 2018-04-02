@@ -1,9 +1,11 @@
-*body{
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+*body {
     margin: 0;
     padding: 0%;
 }
-body{
-    background-color:#00BCD4;
+
+body {
+    font-family: 'Share Tech Mono', monospace;
 }
 
 #banner {
@@ -14,8 +16,15 @@ body{
 
 #banner h1 {
     font-family: 'Reenie Beanie', cursive;
-    padding: 240px;
-    padding-right: 120px;
+    padding-top: 170px;
     font-size: 120px;
-    opacity: 0.7;
+}
+
+#tools-icon {
+    background-color: lightslategray;
+}
+
+#tools-icon img {
+    width: 128px;
+    height: 128px;
 }
