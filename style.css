@@ -1,0 +1,21 @@
+*body{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color:#00BCD4;
+}
+
+#banner {
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/266004/pexels-photo-266004.jpeg?cs=srgb&dl=adorable-baby-beautiful-266004.jpg&fm=jpg') no-repeat;
+    background-size: cover;
+}
+
+#banner h1 {
+    font-family: 'Reenie Beanie', cursive;
+    padding: 240px;
+    padding-right: 120px;
+    font-size: 120px;
+    opacity: 0.7;
+}
